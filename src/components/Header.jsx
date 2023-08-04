@@ -18,7 +18,7 @@ function Header() {
                     <a class="nav-link mr-4" href="experiencia.html">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mr-4" href="contacto.html">Contact</a>
+                    <a class="nav-link mr-4" href="contact.html">Contact</a>
                 </li>
                 </ul>
             </div>

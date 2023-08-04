@@ -1,4 +1,7 @@
-function AboutMe() {
+function Landing() {
+
+    const tecnology = "Technologic stack";
+    const project  = "Projects";
 
     return(
         <div>
@@ -15,11 +18,28 @@ function AboutMe() {
                         that make up my personal training, my work experience
                         and also make a sample of the dedication which I devote myself to this task
                         so exciting... the <strong> development, technology and information</strong>.
-                        All this linked to the new trends that mark the way towards <strong>web 3.0</strong>.
                 </p>
             </div> 
+
+            <div className="container mt-10 mb-5 text-center block-dark">
+                <h2 className="pt-5 pb-5">
+                    Wanna know more?                    
+                </h2>
+
+                <p className="mt-5 mb-5">Lets start then!</p>
+
+                <div>
+                    <div className="col-md-6">
+                        <button className="pt-5 pb-5">{tecnology}</button>
+                    </div>
+                    <div className="col-md-6">
+                        <button className="pt-5 pb-5">{project}</button>    
+                    </div>
+                </div>
+                
+            </div>
         </div>                
     )
 }
 
-export default AboutMe;
+export default Landing;

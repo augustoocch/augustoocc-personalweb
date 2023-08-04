@@ -1,4 +1,9 @@
 /*sacar valores por defecto del navegador*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 
 * {
   font-family: 'Nunito', sans-serif;
@@ -93,6 +98,15 @@ color: white;
   margin-right: 20px;
   }
 
+/* LANDING ------------------------------------------------------------------------------------------------*/
+
+.block-dark {
+
+    background-color: rgb(14, 14, 36);
+    color: white;
+
+    
+}
 
 /* TEXTOS ------------------------------------------------------------------------------------------------*/
 
@@ -293,33 +307,6 @@ box-shadow:  8px 4px 4px rgb(97, 97, 228), 15px 4px 10px rgb(97, 97, 228);
   }
 }
 
-/*
-.js-scroll {
-  transition: opacity 1s;
-}
-
-.js-scroll.scrolled {
-  opacity: 1;
-}
-
-.scrolled.slide-left {
-  animation: slide-in-left 1s ease-in-out both;
-}
-
-
-@keyframes slide-in-left {
-  0% {
-      transform: translateX(-100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-}
-
-*/
-
 .imagenesCurso {
   width: 100px; 
   height: 100px;  
@@ -334,121 +321,6 @@ box-shadow:  8px 4px 4px rgb(97, 97, 228), 15px 4px 10px rgb(97, 97, 228);
 
   background-color: rgb(123, 196, 239);
   height: 9em;
-}
-
-/* CARDS EDUCATION -------------------------------------------------------------------------*/
-
-.education{
-  width: 90%;
-  margin: auto;
-}
-
-.card1 {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
-}
-
-
-.card-body {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 1.25rem;
-}
-
-.card-img-top1 {
-  width: 100%;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
-}
-
-.card-deck1 {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-.card-deck2 {
-  width: 30%;
-}
-
-.card-deck1 .card1 {
-  margin-bottom: 15px;
-}
-
-@media (max-width: 900px) {
-  
-  .education{
-      width: 70%;
-  }
-}
-
-@media (max-width: 700px) {
-  
-  .education{
-      width: 90%;
-  }
-}
-
-@media (min-width: 900px) {
-
-  .card-deck1  {
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  .card-deck1 .card1 {
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex: 1 0 0%;
-    flex: 1 0 0%;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin-right: 15px;
-    margin-bottom: 0;
-    margin-left: 15px;
-  }
-}
-
-
-.tit-tramite {
-  height: 20em;
-  margin: auto;
-  vertical-align: middle;
-  text-align: center;
-}
-
-.tit-tramite, .p {
-  padding-top: 10em;
-}
-
-.flex-item:hover > .texto-invisible { 
-  font-size: 15px;
-  color: white;
-}
-
-@media screen and (min-width: 800px){
-  .flexbox-container-1 {
-      width: 60vw;
-      margin: auto;
-  }
-}
-
-
-.card-body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgb(0, 0, 0);
-  background: linear-gradient(rgb(201, 249, 206), rgb(220, 251, 254));
-  
 }
 
 
