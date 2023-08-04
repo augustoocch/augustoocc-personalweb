@@ -3,7 +3,7 @@ function AboutMe() {
     return(
         <div>
             <div class="perfil animate__animated animate__fadeInDownBig">
-                <img class="perfil_imagen"src="images/perfil.png" />
+                <img class="perfil_imagen"src="src/assets/images/perfil.png" />
             </div>        
 
 
