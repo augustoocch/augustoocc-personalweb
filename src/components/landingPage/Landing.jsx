@@ -8,9 +8,6 @@ AOS.init();
 
 function Landing() {
 
-    const tecnology = "Technologic stack";
-    const project  = "Projects";
-
     let title = "About me";
     let text = "Hello mate! Nice to see you here. I am a software developer specialized in backend technologies and my passion is to apport value to the world. You can find some info about me, my experience and the thech stack I work with. Have a nice day!";
     let blueBlock = new BlueBlock(title, text);
