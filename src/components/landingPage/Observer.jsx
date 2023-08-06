@@ -7,6 +7,7 @@ function Observer(element) {
         const observer = new IntersectionObserver(([entry]) => 
             setIntersecting(entry.isIntersecting)
         );
+        console.log(element)
         observer.observe(element.current);
         return () => {
             observer.disconnect();
@@ -16,5 +17,7 @@ function Observer(element) {
     return isIntersecting;
 
 }
+
+
 
 export default Observer;
