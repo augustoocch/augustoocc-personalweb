@@ -330,13 +330,6 @@ box-shadow:  8px 4px 4px rgb(97, 97, 228), 15px 4px 10px rgb(97, 97, 228);
 }
 
 
-.flex-item:hover{ 
-
-  background-color: rgb(123, 196, 239);
-  height: 9em;
-}
-
-
 /* ACORDEON -----------------------------------------------------------------------------*/
 
 .card-header{
