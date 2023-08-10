@@ -1,4 +1,4 @@
-function BlueBlock(title, message) {
+function BlueBlock({title, text}) {
 
 
     return (
@@ -7,7 +7,7 @@ function BlueBlock(title, message) {
             <h3 className="inicial_titulo">{title}</h3>
             <br />
             <p className="parrafoInicial_texto"> 
-                {message}
+                {text}
             </p>
         </div>
     )

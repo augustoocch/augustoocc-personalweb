@@ -98,16 +98,37 @@ color: white;
   margin-right: 20px;
   }
 
-/* LANDING ------------------------------------------------------------------------------------------------*/
+/* LANDING-SUB-BLOCK ------------------------------------------------------------------------------------------------*/
 
 .block-dark {
-    background-color: rgb(14, 14, 36);
-    color: white;
+  background-color: rgb(14, 14, 36);
+  color: white;
 }
 
 .landing-blocks {
-  background-color: rgb(137, 195, 243);
+  background-color: rgb(99, 76, 201);
   color: #000;
+  border-radius: 5px;
+  max-width: 20em;
+  box-shadow:  8px 4px 4px rgb(241, 242, 245), 15px 4px 10px rgb(3, 31, 107);
+}
+
+.subtitle-container{
+  background-color: rgb(236, 228, 228);
+  color: #000;
+  height: 3em;
+  background-color: rgb(14, 14, 36);
+  align-items: center;
+}
+.subtitle-container p {
+  width: 10em;
+  height: 2.8em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 12px;
+  box-shadow:  8px 4px 4px rgb(124, 152, 228), 15px 4px 10px rgb(3, 31, 107);
+
 }
 
 /* TEXTOS ------------------------------------------------------------------------------------------------*/
@@ -262,16 +283,6 @@ box-shadow:  8px 4px 4px rgb(97, 97, 228), 15px 4px 10px rgb(97, 97, 228);
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-
-.flex-item { 
-  background: linear-gradient(rgb(213, 231, 149), rgb(21, 47, 76));
-  height: 8em;
-  border-radius: 5px;
-  margin-top: 1em;
-  padding: 1em;
-  transition-property: all;
-  transition-duration: 1s;
-}  
 
 .floatStudy1{
   animation: study1 3.5s ease-in-out

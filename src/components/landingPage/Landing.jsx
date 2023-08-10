@@ -24,8 +24,17 @@ function Landing() {
                 <img className="perfil_imagen"src="src/assets/images/perfil.png" />
             </div>         
 
-            {blueBlock}
-            {blueLay}
+            <BlueBlock 
+                title="About me"
+                text="Hello mate! Nice to see you here. I am a software developer specialized in backend technologies and my passion is to apport value to the world. You can find some info about me, my experience and the thech stack I work with. Have a nice day!"
+            />
+
+            <BlueLayout 
+                titleLayout ="Wanna know more?"
+                subtitleLayout ="Lets start then!"
+                block1 ="Technology stack"
+                block2 ="Projects"
+            />
             
         </div>                
     )

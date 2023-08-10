@@ -7,6 +7,7 @@ function LandingObserver () {
     const projects = document.querySelector("#projects");
 
     console.log(techStack)
+    
     const ref = useRef();
     const observer = Observer(techStack);
 
