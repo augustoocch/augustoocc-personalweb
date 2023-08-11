@@ -1,0 +1,42 @@
+
+/* TECHNOLOGIES BLOCK ------------------------------------------------------------------------------------------------*/
+
+#estilo01 {
+  background-color: rgb(14, 14, 36);
+  color: white;
+}  
+
+#estilo02 {
+  background-color: rgb(230, 171, 44);
+  color: white;
+}  
+
+#estilo03 {
+  background-color: rgb(247, 97, 247);
+  color: white;
+}  
+
+.image-tech {
+  width: 250px;
+}
+
+
+
+.title-tech {
+  font-family: 'Oswald', sans-serif;
+  font-size: large;
+}
+
+.subtitle-tech {
+  font-family: 'Oswald', sans-serif;
+}
+
+.navlink {
+  color: white;
+}
+
+.navlink button {
+  height: 100%;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+}
