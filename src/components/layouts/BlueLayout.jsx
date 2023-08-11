@@ -14,12 +14,12 @@ function BlueLayout({ titleLayout, subtitleLayout, text1, text2, destination1, d
 
         <div className='container '>
         <div className='row justify-center justify-content-around'>
-          <div id="technology" className="col-sm-8 col-md-4 mt-5 mb-5 landing-blocks" data-aos="zoom-in" data-aos-duration="1500" >
+          <div id="technology" className="col-9 col-sm-8 col-md-4 mt-5 mb-5 landing-blocks" data-aos="zoom-in" data-aos-duration="1500" >
             <NavLink className="navlink" to={destination1}>
               <button className="pt-5 pb-5">{text1}</button>
             </NavLink>  
           </div>
-          <div id="projects" className="col-sm-8 col-md-4 mt-5 mb-5 landing-blocks" data-aos="zoom-in" data-aos-duration="1500" >
+          <div id="projects" className="col-9 col-sm-8 col-md-4 mt-5 mb-5 landing-blocks" data-aos="zoom-in" data-aos-duration="1500" >
             <NavLink className="navlink" to={destination2}>
               <button className="pt-5 pb-5" >{text2}</button>
             </NavLink >
