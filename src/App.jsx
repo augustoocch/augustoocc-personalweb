@@ -1,22 +1,26 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import React from 'react';
 import './assets/styles/index.css'
 import './assets/styles/landing.css'
 import './assets/styles/footer.css'
 
-import Header from "./components/layouts/Header"
-import Landing from './components/landingPage/Landing';
-import Footer from './components/layouts/Foother';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Tech from './Tech';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Landing />
-      <Footer />
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/technology" element={<Tech />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App

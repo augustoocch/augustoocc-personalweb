@@ -1,5 +1,4 @@
 import AOS from 'aos';
-import Observer from './Observer';
 import BlueBlock from '../layouts/BlueBlock';
 import BlueLayout from '../layouts/BlueLayout';
 
@@ -32,8 +31,10 @@ function Landing() {
             <BlueLayout 
                 titleLayout ="Wanna know more?"
                 subtitleLayout ="Lets start then!"
-                block1 ="Technologic stack"
-                block2 ="Projects"
+                text1 ="Technologic stack"
+                text2 ="Projects"
+                destination1 = "/technology"
+                destination2 = "/projects"
             />
             
         </div>                

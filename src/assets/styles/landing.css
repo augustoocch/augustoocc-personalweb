@@ -34,12 +34,16 @@
     background-color: rgb(14, 14, 36);
     color: white;
   }
+
+.row-block {
+  width: 80%;
+}
   
   .landing-blocks {
     background-color: rgb(99, 76, 201);
     color: #000;
     border-radius: 5px;
-    max-width: 18em;
+    width: 80%;
     box-shadow:  8px 4px 4px rgb(241, 242, 245), 15px 4px 10px rgb(3, 31, 107);
   }
   
@@ -50,6 +54,7 @@
     background-color: rgb(14, 14, 36);
     align-items: center;
   }
+
   .subtitle-container p {
     width: 10em;
     height: 2.8em;
