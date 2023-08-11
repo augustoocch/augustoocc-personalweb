@@ -32,7 +32,7 @@ function Landing() {
             <BlueLayout 
                 titleLayout ="Wanna know more?"
                 subtitleLayout ="Lets start then!"
-                block1 ="Technology stack"
+                block1 ="Technologic stack"
                 block2 ="Projects"
             />
             
