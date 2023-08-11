@@ -1,0 +1,235 @@
+/*sacar valores por defecto del navegador*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  font-family: 'Nunito', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+background: linear-gradient(rgb(254, 254, 254), rgb(187, 210, 255));   
+overflow-x: hidden;
+}
+
+h1 {
+  z-index: 1;
+}
+
+
+/* NAV --------------------------------------------------------------------------------*/
+
+
+.navbar{
+  font-size: 16px;
+  z-index: 100;
+}
+
+
+ul>li {
+  list-style: none;
+}
+
+
+
+/* TEXTS ------------------------------------------------------------------------------------------------*/
+
+
+
+h1 {
+  
+  font-size: 3em;
+  padding: 10px 30px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+h2 {   
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1em;
+  margin: auto;
+}
+
+/* BLOQUES MORADOS----------------------------------------------------------------------------*/
+
+.inicial {
+  width: 85vw;
+  background: linear-gradient(rgb(166, 162, 255), rgb(21, 47, 76));   
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 20px 10px;
+  text-align:justify;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow:  8px 4px 4px rgb(3, 31, 107), 15px 4px 10px rgb(3, 31, 107);
+  transition-property: all;
+  transition-duration:  1s;
+}
+
+.irContacto { 
+  text-decoration: none;
+  color: inherit;
+} 
+
+.inicial:hover {
+background: linear-gradient(rgb(140, 134, 237), rgb(7, 24, 44));
+box-shadow:  8px 4px 4px rgb(97, 97, 228), 15px 4px 10px rgb(97, 97, 228);
+}
+
+.inicial_titulo {
+  font-size: 1.5em;
+  margin: auto;
+  text-align: center;
+}
+
+
+.parrafoInicial_texto {
+  padding: 5px 4px;
+  display: inline-block;
+}
+
+.parrafoFormacion {
+  margin: auto;
+  text-align: center;
+}
+
+
+.bloques {
+  width: 85vw;
+  background: linear-gradient(rgb(21, 47, 76), rgb(166, 162, 255) );
+  font-size: 20px;
+  color: white;
+  margin: auto;
+  padding: 20px 10px;
+  text-align:justify;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow:  8px 4px 4px rgb(3, 31, 107), 15px 4px 10px rgb(3, 31, 107);
+  transition: 0.8s;
+}
+
+.bloques:hover {
+box-shadow:  8px 4px 4px rgb(97, 97, 228), 15px 4px 10px rgb(97, 97, 228);
+
+}
+
+.bloques_titulo {
+  font-size: 1.5em;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 950px){
+  .bloques {
+      width: 600px;
+  }
+
+}
+
+.irContacto {
+  color: white;
+  height: 30px;
+  width: 180px;
+  border-radius: 5px;
+  border: 1px double rgb(5, 5, 0);
+  background: linear-gradient(rgb(88, 106, 239), rgb(21, 47, 76));
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.linkContact{
+  color: inherit;
+}
+
+
+
+/* FLEX ITEM TOOLS -------------------------------------------------------------------------*/
+
+.flexbox-container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.floatStudy1{
+  animation: study1 3.5s ease-in-out
+  infinite;
+}  
+
+@keyframes study1 {
+
+  0% {
+  transform: translateY(0);
+  }
+  50% {
+  transform: translateY(-5px);
+  }
+  100% {
+  transform: translateY(0);
+  }
+}
+
+.floatStudy2{
+  animation: study2 3.5s ease-in-out
+  infinite;
+}  
+
+@keyframes study2 {
+
+  0% {
+  transform: translateY(-5px);
+  }           
+  50% {
+  transform: translateY(0);
+  }  
+  100% {
+  transform: translateY(-5px);
+  }
+}
+
+.imagenesCurso {
+  width: 100px; 
+  height: 100px;  
+}
+
+.texto-invisible {
+  font-size: 0px;
+}
+
+
+/* ACORDEON -----------------------------------------------------------------------------*/
+
+.card-header{
+  background: linear-gradient(rgb(198, 204, 247), rgb(141, 184, 234));
+  color: white;
+  text-decoration: none;
+
+}
+
+.bodyCard {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(rgb(194, 255, 251), rgb(255, 255, 255));
+  
+}
+
+.btn {
+  margin-left: 0px;
+}
+
+.acorLabel {
+
+  font-size: 15px;
+}
+

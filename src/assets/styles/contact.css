@@ -1,0 +1,202 @@
+/* FORMULARIO DE CONTACTO -------------------------------------------------------------------*/
+
+.ContactFormContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+  }
+  
+  .container_form1 {
+    background: linear-gradient(rgb(203, 213, 253),rgb(136, 177, 224));   
+    border-width: 2px;
+    min-width: 20vw;
+    height: 250px;  
+    z-index: 5;
+    text-align: left;
+    margin: auto;
+    vertical-align: middle;
+    display: flex;
+  }
+  
+  .container_form1:first-child {
+      filter: drop-shadow( 5px 5px 10px #000 );
+      z-index: 0;
+      text-align: right;
+  }      
+  
+  .container_form2 {
+    width: 350px;
+    background: linear-gradient(rgb(166, 162, 255), rgb(21, 47, 76));   
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 20px 10px;
+    text-align:justify;
+    transition-property: all;
+    transition-duration:  1s;
+    border-color: rgb(117, 117, 229); 
+    filter: drop-shadow( 5px 5px 10px #000 );
+    z-index: 20;
+  }
+  
+  .fa-envelopes-bulk {
+    font-size: 7em;
+    display: inline-block;
+  }
+  
+  .message {
+    display: inline-block;
+    font-size: 17px;
+    max-width: 100px;
+  }
+  
+  .container_form2:hover {
+    background: linear-gradient(rgb(140, 134, 237), rgb(7, 24, 44));
+    box-shadow:  8px 4px 4px rgb(97, 97, 228), 15px 4px 10px rgb(97, 97, 228);
+  }
+  
+  .form-group {
+  
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+  
+  .form-control:focus {
+    background: linear-gradient(rgb(23, 12, 12), rgb(61, 52, 52));
+  }
+  
+  #nombre {
+    background: transparent;
+    color: rgb(255, 255, 255);
+  }
+  
+  #nombre::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  
+  #nombre:focus {
+    background: linear-gradient(rgb(102, 71, 135), rgb(126, 113, 199));
+  }
+  
+  #apellido {
+    background: transparent;
+    color: rgb(255, 255, 255);
+  }
+  
+  #apellido::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  
+  #apellido:focus {
+    background: linear-gradient(rgb(102, 71, 135), rgb(126, 113, 199));
+  }
+  
+  #email {
+    background: transparent;
+    color: rgb(255, 255, 255);
+  }
+  
+  #email::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  
+  #email:focus {
+    background: linear-gradient(rgb(102, 71, 135), rgb(126, 113, 199));
+  }
+  
+  #coment {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    resize: none;
+  }
+  
+  #coment::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  
+  #coment:focus {
+    background: linear-gradient(rgb(102, 71, 135), rgb(126, 113, 199));
+  }
+  
+  .form-check {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .button-block{
+    width: 60%;
+    margin: auto;
+  }
+  .btn {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 650px){
+    
+    .ContactFormContainer{
+        display: block;
+        margin-top: 2em;
+    }
+    .container_form1 {
+        width: 300px;
+        margin: auto;
+        height: 270px;
+    }
+  
+    .container_form2 {
+        width: 400px;
+        margin-top: -1.5em;
+    }
+  
+  }
+  
+  @media screen and (max-width: 450px){
+    
+    .ContactFormContainer{
+        display: block;
+        margin-top: 2em;
+    }
+    .container_form1 {
+        width: 280px;
+        margin: auto;
+        height: 270px;
+    }
+  
+    .container_form2 {
+        width: 350px;
+        margin-top: -1.5em;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 300px){
+    
+    .ContactFormContainer{
+        display: block;
+        margin-top: 2em;
+    }
+    .container_form1 {
+        width: 230px;
+        margin: auto;
+        height: 400px;
+    }
+  
+    .container_form2 {
+        width: 250px;
+        margin-top: -1em;
+    }
+  
+    .container_form1:first-child {
+        text-align: center;
+  }      
+  
+  
+  }
+  
+  

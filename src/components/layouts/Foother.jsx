@@ -1,14 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-function Footer({ titleLayout, subtitleLayout, block1, block2 }) {
+function Footer() {
 
   return (
 
     <footer className="foot">
         <div className= "d-flex justify-content-around">
-            <div className="flex-item">
-                        <p>Copyright</p>
-                        <p>San Telmo - CABA - Argentina.</p>
+            <div className='contact-p d-flex justify-content-center'>
+                <p className=" bg-slate-300">Contact me</p>
             </div>
             <div className="flex-item">
                 <a href="https://www.instagram.com/augustoocchiuzzi/" target="_BLANK" >

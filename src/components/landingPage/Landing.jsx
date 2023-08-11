@@ -21,7 +21,7 @@ function Landing() {
     return(
         <div>
             <div className="perfil animate__animated animate__fadeInDownBig">
-                <img className="perfil_imagen"src="src/assets/images/perfil.png" />
+                <img className="perfil_imagen"src="src/assets/images/perfil.svg" />
             </div>         
 
             <BlueBlock 

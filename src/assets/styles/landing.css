@@ -1,0 +1,62 @@
+/* LANDING IMG ----------------------------------------------------------------------------*/
+
+.perfil{
+    width: 96%;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .perfil_imagen {
+  
+    display: block;
+    width: 100%;
+    height: auto;
+    animation: perfil 3s ease-in-out
+    infinite;
+  }  
+  
+  @keyframes perfil {
+  
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  }
+
+/* LANDING-SUB-BLOCK ------------------------------------------------------------------------------------------------*/
+
+.block-dark {
+    background-color: rgb(14, 14, 36);
+    color: white;
+  }
+  
+  .landing-blocks {
+    background-color: rgb(99, 76, 201);
+    color: #000;
+    border-radius: 5px;
+    max-width: 18em;
+    box-shadow:  8px 4px 4px rgb(241, 242, 245), 15px 4px 10px rgb(3, 31, 107);
+  }
+  
+  .subtitle-container{
+    background-color: rgb(236, 228, 228);
+    color: #000;
+    height: 3em;
+    background-color: rgb(14, 14, 36);
+    align-items: center;
+  }
+  .subtitle-container p {
+    width: 10em;
+    height: 2.8em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 12px;
+    box-shadow:  8px 4px 4px rgb(124, 152, 228), 15px 4px 10px rgb(3, 31, 107);
+  
+  }  

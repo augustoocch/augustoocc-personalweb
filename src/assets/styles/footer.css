@@ -1,0 +1,42 @@
+/* FOOTER --------------------------------------------------------------------------------*/
+
+.foot {
+    grid-area: footer;
+    background-color: #000000e0;
+    padding: 10px;
+    text-align:center;
+    margin-top: auto;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    }
+    
+.contact-p p {
+    color: black;
+    width: 10em;
+    height: 2.8em;
+    background-color: rgb(235, 179, 179);
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 12px;
+    box-shadow:  8px 4px 4px rgb(124, 152, 228), 15px 4px 10px rgb(3, 31, 107);
+      
+}  
+    
+    
+.imagenInsta {
+    display: inline-block;
+    width: 25px;
+    align-content: left;
+    
+}
+    
+.imagenLinkedin {
+    display: inline-block;
+    width: 25px;
+    align-content: left;
+}
+    
+    
+
+    
