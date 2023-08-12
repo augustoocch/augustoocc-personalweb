@@ -27,10 +27,6 @@ overflow-x: hidden;
   z-index: 100;
 }
 
-.menu-desp {
-  display: none;
-}
-
 ul>li {
   list-style: none;
 }
@@ -209,31 +205,5 @@ box-shadow:  8px 4px 4px rgb(97, 97, 228), 15px 4px 10px rgb(97, 97, 228);
 
 .texto-invisible {
   font-size: 0px;
-}
-
-
-/* ACORDEON -----------------------------------------------------------------------------*/
-
-.card-header{
-  background: linear-gradient(rgb(198, 204, 247), rgb(141, 184, 234));
-  color: white;
-  text-decoration: none;
-
-}
-
-.bodyCard {
-  font-family: 'Oswald', sans-serif;
-  color: rgb(0, 0, 0);
-  background: linear-gradient(rgb(194, 255, 251), rgb(255, 255, 255));
-  
-}
-
-.btn {
-  margin-left: 0px;
-}
-
-.acorLabel {
-
-  font-size: 15px;
 }
 
