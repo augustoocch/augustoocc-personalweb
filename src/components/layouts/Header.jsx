@@ -22,8 +22,23 @@ function Header() {
         setIsMobile(false)
     }}
 
+    const handleOnload = () => {
+        if (window.innerWidth < 1024) {
+            setIsMobile(true);
+            setMenu(false);
+            setBurgerMenu(true);
+        } else {
+            setIsMobile(false);
+            setMenu(true);
+            setBurgerMenu(false);
+    }}
+
     useEffect(() => {
         window.addEventListener("resize", handleResize)
+    })
+
+    useEffect(() => {
+        window.addEventListener("load", handleOnload)
     })
 
     return( 
@@ -39,7 +54,6 @@ function Header() {
             <button onClick={handleMenu} className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
             {burgerMenu && (
                 <i class="fa-solid fa-face-frown"></i>
-                //<svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
             )}
             {!burgerMenu && (
                 <i class="fa-solid fa-face-laugh-beam"></i>
