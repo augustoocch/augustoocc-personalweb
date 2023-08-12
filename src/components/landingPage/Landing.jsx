@@ -18,7 +18,7 @@ function Landing() {
     let blueLay = new BlueLayout(titleLayout, subtitleLayout, block1, block2);
 
     return(
-        <div>
+        <div id="top">
             <div className="perfil animate__animated animate__fadeInDownBig">
                 <img className="perfil_imagen"src="src/assets/images/perfil.svg" />
             </div>         
@@ -33,8 +33,8 @@ function Landing() {
                 subtitleLayout ="Let's start then!"
                 text1 ="Technologic stack"
                 text2 ="Projects"
-                destination1 = "/technology"
-                destination2 = "/projects"
+                destination1 = "/technology#top-tech"
+                destination2 = "/projects#top-proj"
             />
             
         </div>                

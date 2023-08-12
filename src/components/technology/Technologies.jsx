@@ -9,22 +9,22 @@ function Technologies() {
 
 
     const technologies = {
-        java: ["estilo01", "src/assets/images/java.png", "Java", "One of the most important languajes to learn if you a re a developer"],
-        quarkus: ["estilo02", "src/assets/images/quarkus.png", "Quarkus", "One of the most important languajes to learn if you a re a developer"],
-        spring: ["estilo03", "src/assets/images/spring.png", "SpringBoot", "One of the most important languajes to learn if you a re a developer"],
-        js: ["estilo01", "src/assets/images/js.png", "JavaScript", "One of the most important languajes to learn if you a re a developer"],
-        kubernetes: ["estilo02", "src/assets/images/kubernetes.png", "Kubernetes", "One of the most important languajes to learn if you a re a developer"],
-        react: ["estilo03", "src/assets/images/react.png", "React", "One of the most important languajes to learn if you a re a developer"],
-        docker: ["estilo01", "src/assets/images/docker.png", "Docker", "One of the most important languajes to learn if you a re a developer"],
-        sql: ["estilo02", "src/assets/images/mysql.png", "SQL", "One of the most important languajes to learn if you a re a developer"],
-        cicd: ["estilo03", "src/assets/images/cicd.png", "CI/CD", "One of the most important languajes to learn if you a re a developer"]
+        java: ["estilo01", "src/assets/images/java.png", "Java", "Versatile and robust programming language, widely used for creating enterprise-level applications."],
+        quarkus: ["estilo02", "src/assets/images/quarkus.png", "Quarkus", "Supersonic Subatomic Java framework, designed for cloud-native, lightweight, and efficient microservices."],
+        spring: ["estilo03", "src/assets/images/spring.png", "SpringBoot", "Extension of the Spring framework, providing a streamlined way to create production-ready Java applications, with built-in conventions for rapid development and deployment."],
+        js: ["estilo01", "src/assets/images/js.png", "JavaScript", "Dynamic scripting language, essential for front-end web development, enabling interactive and responsive designs."],
+        kubernetes: ["estilo02", "src/assets/images/kubernetes.png", "Kubernetes", "Open-source container orchestration platform, automating deployment, scaling, and management of containerized applications."],
+        react: ["estilo03", "src/assets/images/react.png", "React", "JavaScript library for building user interfaces, offering component-based development and dynamic rendering."],
+        docker: ["estilo01", "src/assets/images/docker.png", "Docker", "Containerization tool simplifying application deployment by packaging apps and their dependencies in isolated environments."],
+        sql: ["estilo02", "src/assets/images/mysql.png", "SQL", "Structured Query Language, used to manage and manipulate relational databases, facilitating data retrieval and manipulation."],
+        cicd: ["estilo03", "src/assets/images/cicd.png", "CI/CD", "Continuous Integration and Continuous Deployment, practices automating software delivery pipelines, ensuring efficiency and quality."]
     }
 
     return(
         
         <div> 
-            <h1>Technologic stack</h1>  
-            <MultipleBlocks 
+            <h1  id="top-tech">Technologic stack</h1>  
+            <MultipleBlocks
                 techStack={technologies}
             />
         </div>                
