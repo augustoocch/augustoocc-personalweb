@@ -59,8 +59,8 @@ function Header() {
             </button>
         </div>
         {(menuShown || !isMobile )&& (
-        <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto menu-desp">
-            <div className="text-sm lg:flex-grow">
+        <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto menu-desp ">
+            <div className="text-sm lg:flex-grow flex justify-end">
                 <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 navlink" to={"/#top"}>
                     <span>About</span>
                 </NavLink>

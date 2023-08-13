@@ -33,7 +33,18 @@
 .block-dark {
     background-color: rgb(14, 14, 36);
     color: white;
+    border-radius: 20px;
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 575px){
+  .block-dark {
+    border-radius: 0px;
+    margin-bottom: 0px;
   }
+
+}
+
 
   
   .landing-blocks {

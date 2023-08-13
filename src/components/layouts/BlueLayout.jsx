@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 function BlueLayout({ titleLayout, subtitleLayout, text1, text2, destination1, destination2 }) {
 
   return (
-      <div className="container mt-5 mb-5 text-center block-dark">
+      <div className="container mt-5 text-center block-dark">
         <h2 className="pt-5 pb-5">{titleLayout}</h2>
 
         <div className='subtitle-container d-flex justify-content-center'>
