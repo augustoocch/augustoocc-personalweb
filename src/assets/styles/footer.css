@@ -19,19 +19,11 @@
     border-radius: 15px;
     text-align: center;
     padding-top: 12px;
-    box-shadow:  8px 4px 4px rgb(124, 152, 228), 15px 4px 10px rgb(3, 31, 107);
+    box-shadow:  4px 4px 4px rgb(124, 152, 228), 15px 4px 10px rgb(3, 31, 107);
       
 }  
-    
-    
-.imagenInsta {
-    display: inline-block;
-    width: 25px;
-    align-content: left;
-    
-}
-    
-.imagenLinkedin {
+     
+.imagenFoot {
     display: inline-block;
     width: 25px;
     align-content: left;
