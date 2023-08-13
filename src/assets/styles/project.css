@@ -1,38 +1,14 @@
 /* PROYECTOS -------------------------------------------------------------------*/
 
-.tarjetaCiudad {
-    width: 90%;
-    margin: auto;
-    transition: 0.5s;
-    margin-bottom: 5em;
-  }
-  
-  .card-imagen{
-    height: 300px;
-    width: 100%;
-  }
-  .imagenTarj{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  
-  .code {
-    animation: code 1.2s ease-in-out
-    infinite;
-  }  
-  
-  @keyframes code {
-  
-    0% {
-    transform: translateY(0);
-    }
-    50% {
-    transform: translateY(-5px);
-    }
-    100% {
-    transform: translateY(0);
-    }
-  }
-  
+.proj-block {
+  border-radius: 10px;
+  box-shadow:  4px 4px 4px rgb(124, 152, 228), 15px 4px 10px rgb(3, 31, 107);
+}
+
+.button-proj{
+  color: black;
+  border-radius: 15px;
+  background: rgb(226,226,226);
+  background: radial-gradient(circle, rgba(226,226,226,1) 15%, rgba(255,255,255,1) 100%);
+  box-shadow:  4px 4px 4px rgb(124, 152, 228), 15px 4px 10px rgb(3, 31, 107);
+}
