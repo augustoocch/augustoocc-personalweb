@@ -10,15 +10,15 @@ function MultipleBlocks({techStack}) {
     
     results.push(
       <div id={style} className="d-flex flex-wrap justify-content-around m-5 proj-block" >
-            <div className="p-2">
+        <div className="p-2">
             <img className="image-tech" src={image} />
-            </div>
-            <div className="p-2 align-self-center block-text">
-                <div className="p-2 title-tech">{title}</div>
-                <a href={url} target="_blank" rel="repository">
-                    <button className="p-2 button-proj">Go to the repo!</button>
-                </a>
-            </div>
+        </div>
+        <div className="p-2 align-self-center block-text">
+            <div className="p-2 title-tech">{title}</div>
+            <a href={url} target="_blank" rel="repository">
+                <button className="p-2 button-proj">Go to the repo!</button>
+            </a>
+        </div>
         </div>
     );
   })    

@@ -51,7 +51,7 @@ function Header() {
         <div className="block lg:hidden">
             <button onClick={handleMenu} className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
             {burgerMenu && (
-                <i class="fa-solid fa-face-frown"></i>
+                <i className="fa-solid fa-face-frown"></i>
             )}
             {!burgerMenu && (
                 <i className="fa-solid fa-face-laugh-beam"></i>
