@@ -54,7 +54,7 @@ function Header() {
                 <i class="fa-solid fa-face-frown"></i>
             )}
             {!burgerMenu && (
-                <i class="fa-solid fa-face-laugh-beam"></i>
+                <i className="fa-solid fa-face-laugh-beam"></i>
             )}
             </button>
         </div>

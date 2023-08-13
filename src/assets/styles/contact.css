@@ -1,38 +1,38 @@
 /* FORMULARIO DE CONTACTO -------------------------------------------------------------------*/
 
 .ContactFormContainer{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
   }
   
-  .container_form1 {
-    background: linear-gradient(rgb(203, 213, 253),rgb(136, 177, 224));   
-    border-width: 2px;
-    min-width: 20vw;
-    height: 250px;  
-    z-index: 5;
-    text-align: left;
-    margin: auto;
-    vertical-align: middle;
-    display: flex;
-  }
+.container_form1 {
+  background: linear-gradient(rgb(203, 213, 253),rgb(136, 177, 224));   
+  border-width: 2px;
+  min-width: 20vw;
+  height: 250px;  
+  z-index: 5;
+  text-align: left;
+  vertical-align: middle;
+  margin-right: 0px;
+}
   
-  .container_form1:first-child {
-      filter: drop-shadow( 5px 5px 10px #000 );
-      z-index: 0;
-      text-align: right;
-  }      
+.container_form1:first-child {
+  filter: drop-shadow( 5px 5px 10px #000 );
+  z-index: 0;
+  text-align: right;
+}      
   
   .container_form2 {
     width: 350px;
+    flex: 2;
+    margin: 0 10px;
     background: linear-gradient(rgb(166, 162, 255), rgb(21, 47, 76));   
     font-size: 20px;
     color: rgb(255, 255, 255);
     margin: auto;
-    padding: 20px 10px;
+    padding: 50px 10px;
     text-align:justify;
     transition-property: all;
     transition-duration:  1s;
@@ -68,56 +68,17 @@
     background: linear-gradient(rgb(23, 12, 12), rgb(61, 52, 52));
   }
   
-  #nombre {
+  .nombre {
     background: transparent;
+    margin-bottom: 10px;
     color: rgb(255, 255, 255);
   }
   
-  #nombre::placeholder {
+  .nombre::placeholder {
     color: rgb(255, 255, 255);
   }
   
-  #nombre:focus {
-    background: linear-gradient(rgb(102, 71, 135), rgb(126, 113, 199));
-  }
-  
-  #apellido {
-    background: transparent;
-    color: rgb(255, 255, 255);
-  }
-  
-  #apellido::placeholder {
-    color: rgb(255, 255, 255);
-  }
-  
-  #apellido:focus {
-    background: linear-gradient(rgb(102, 71, 135), rgb(126, 113, 199));
-  }
-  
-  #email {
-    background: transparent;
-    color: rgb(255, 255, 255);
-  }
-  
-  #email::placeholder {
-    color: rgb(255, 255, 255);
-  }
-  
-  #email:focus {
-    background: linear-gradient(rgb(102, 71, 135), rgb(126, 113, 199));
-  }
-  
-  #coment {
-    background: transparent;
-    color: rgb(255, 255, 255);
-    resize: none;
-  }
-  
-  #coment::placeholder {
-    color: rgb(255, 255, 255);
-  }
-  
-  #coment:focus {
+  .nombre:focus {
     background: linear-gradient(rgb(102, 71, 135), rgb(126, 113, 199));
   }
   
@@ -146,11 +107,13 @@
         width: 300px;
         margin: auto;
         height: 270px;
+        margin-left: auto;
     }
   
     .container_form2 {
         width: 400px;
         margin-top: -1.5em;
+        margin-right: auto;
     }
   
   }
