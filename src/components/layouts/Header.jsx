@@ -44,7 +44,7 @@ function Header() {
     <nav className="flex items-center justify-between flex-wrap bg-slate-900 p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
             <NavLink className="navlink" to={"/"}>
-                <img src="src/assets/images/icon.ico" width="50px"/>
+                <img src="/images/icon.ico" width="50px"/>
             </NavLink>
             <span className="ml-4">Augusto Occhiuzzi</span>
         </div>

@@ -16,7 +16,7 @@ function Technologies() {
         js: ["estilo01", "src/assets/images/js.png", "JavaScript", "Dynamic scripting language, essential for front-end web development, enabling interactive and responsive designs."],
         kubernetes: ["estilo02", "src/assets/images/kubernetes.png", "Kubernetes", "Open-source container orchestration platform, automating deployment, scaling, and management of applications."],
         react: ["estilo03", "src/assets/images/react.png", "React", "JavaScript library for building user interfaces, offering component-based development and dynamic rendering."],
-        docker: ["estilo01", "src/assets/images/docker.png", "Docker", "Containerization tool simplifying application deployment by packaging apps and their dependencies in isolated environments."],
+        docker: ["estilo01", "/images/docker.png", "Docker", "Containerization tool simplifying application deployment by packaging apps and their dependencies in isolated environments."],
         sql: ["estilo02", "src/assets/images/mysql.png", "SQL", "Structured Query Language, used to manage and manipulate relational databases, facilitating data retrieval and manipulation."],
         cicd: ["estilo03", "src/assets/images/cicd.png", "CI/CD", "Continuous Integration and Continuous Deployment, practices automating software delivery pipelines, ensuring efficiency and quality."]
     }

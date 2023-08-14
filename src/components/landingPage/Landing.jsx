@@ -23,11 +23,11 @@ function Landing() {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
     })
-    
+
     return(
         <div id="top">
             <div className="perfil animate__animated animate__fadeInDownBig">
-                <img className="perfil_imagen"src="src/assets/images/perfil.svg" />
+                <img className="perfil_imagen"src="/images/perfil.svg" />
             </div>         
 
             <BlueBlock 
