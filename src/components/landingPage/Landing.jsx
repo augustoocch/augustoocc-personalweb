@@ -1,6 +1,8 @@
 import AOS from 'aos';
 import BlueBlock from '../layouts/BlueBlock';
 import BlueLayout from '../layouts/BlueLayout';
+import { useLayoutEffect } from 'react';
+
 
 AOS.init();
 
@@ -17,6 +19,11 @@ function Landing() {
     let block2 ="Projects";
     let blueLay = new BlueLayout(titleLayout, subtitleLayout, block1, block2);
 
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    })
+    
     return(
         <div id="top">
             <div className="perfil animate__animated animate__fadeInDownBig">

@@ -1,5 +1,6 @@
 import AOS from 'aos';
 import MultipleBlocks from '../layouts/MultipleBlocks';
+import { useLayoutEffect } from 'react';
 
 
 AOS.init();
@@ -19,6 +20,10 @@ function Technologies() {
         sql: ["estilo02", "src/assets/images/mysql.png", "SQL", "Structured Query Language, used to manage and manipulate relational databases, facilitating data retrieval and manipulation."],
         cicd: ["estilo03", "src/assets/images/cicd.png", "CI/CD", "Continuous Integration and Continuous Deployment, practices automating software delivery pipelines, ensuring efficiency and quality."]
     }
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
 
     return(
         

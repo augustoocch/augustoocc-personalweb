@@ -1,5 +1,6 @@
 import AOS from 'aos';
 import ProjectBlock from '../layouts/ProjectBlock';
+import { useLayoutEffect } from 'react';
 
 
 function Proj() {
@@ -12,6 +13,10 @@ function Proj() {
         js: ["estilo01", "src/assets/images/market.png", "JavaScript marketplace with node", "https://github.com/augustoocch/market-place-nodejs"],
         ai: ["estilo02", "src/assets/images/ai.png", "AI chatbot with react and OpenAi API", "https://github.com/augustoocch/AI-GPT"],
     }
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
 
     return(
         

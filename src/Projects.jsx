@@ -5,7 +5,7 @@ import './assets/styles/footer.css'
 
 import Header from "./components/layouts/Header"
 import Footer from './components/layouts/Foother';
-import Proj from './components/projects/proj';
+import Proj from './components/projects/Proj';
 
 function Projects() {
   return (
