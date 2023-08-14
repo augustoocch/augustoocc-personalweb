@@ -28,7 +28,7 @@ function Technologies() {
     return(
         
         <div> 
-            <h1  id="top-tech">Technologic stack</h1>  
+            <h1 >Technologic stack</h1>  
             <MultipleBlocks
                 techStack={technologies}
             />

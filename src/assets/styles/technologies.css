@@ -1,19 +1,19 @@
 
 /* TECHNOLOGIES BLOCK ------------------------------------------------------------------------------------------------*/
 
-#estilo01 {
+.estilo01 {
   background: rgb(15,17,139);
   background: radial-gradient(circle, rgba(15,17,139,1) 15%, rgba(70,92,252,1) 100%);
   color: white;
 }  
 
-#estilo02 {
+.estilo02 {
   background: rgb(182,4,4);
   background: radial-gradient(circle, rgba(182,4,4,1) 15%, rgba(203,255,39,1) 100%);
   color: white;
 }  
 
-#estilo03 {
+.estilo03 {
   background: rgb(222,57,254);
   background: radial-gradient(circle, rgba(222,57,254,1) 15%, rgba(68,108,247,1) 100%);
   color: white;

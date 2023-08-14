@@ -21,7 +21,7 @@ function Proj() {
     return(
         
         <div> 
-            <h1  id="top-tech">Projects</h1>  
+            <h1 >Projects</h1>  
             <ProjectBlock
                 techStack={technologies}
             />

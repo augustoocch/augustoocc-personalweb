@@ -9,7 +9,7 @@ function MultipleBlocks({techStack}) {
     const [style, image, title, url] = infoArray;
     
     results.push(
-      <div id={style} className="d-flex flex-wrap justify-content-around m-5 proj-block" >
+      <div key={element} className={`d-flex flex-wrap justify-content-around m-5 proj-block ${style}`} >
         <div className="p-2">
             <img className="image-tech" src={image} />
         </div>
