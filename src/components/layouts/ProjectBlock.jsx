@@ -13,7 +13,7 @@ function MultipleBlocks({projectArray}) {
         <div className="p-2">
             <img className="image-tech" src={image} />
         </div>
-        <div className="p-2 align-self-center block-text">
+        <div className="d-flex flex-column text-center p-2 align-self-center block-text justify-content-center">
             <div className="p-2 title-tech">{title}</div>
             <a href={url} target="_blank" rel="repository">
                 <button className="p-2 button-proj">Go to the repo!</button>
