@@ -6,7 +6,7 @@ import { useLayoutEffect } from 'react';
 function Proj() {
 
 
-    const technologies = {
+    const projects = {
         quarkus: ["estilo01", "src/assets/images/microservice.png", "Quarkus microservice", "https://github.com/augustoocch/Product-microService-Quarkus-Framework"],
         react: ["estilo02", "src/assets/images/frontend.png", "React fontend", "https://github.com/augustoocch/augustoocc-personalweb"],
         spring: ["estilo03", "src/assets/images/microservice.png", "Springboot microservice", "https://github.com/augustoocch/microservice-match-spring3"],
@@ -23,7 +23,7 @@ function Proj() {
         <div> 
             <h1 >Projects</h1>  
             <ProjectBlock
-                techStack={technologies}
+                projectArray={projects}
             />
         </div>                
     )

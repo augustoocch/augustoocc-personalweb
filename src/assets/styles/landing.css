@@ -28,6 +28,44 @@
   }
   }
 
+
+/* BLOCKS ----------------------------------------------------------------------------*/
+
+.inicial {
+  width: 85vw;
+  background: linear-gradient(rgb(166, 162, 255), rgb(21, 47, 76));   
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 20px 10px;
+  text-align:justify;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow:  8px 4px 4px rgb(3, 31, 107), 15px 4px 10px rgb(3, 31, 107);
+  transition-property: all;
+  transition-duration:  1s;
+}
+
+
+
+.inicial:hover {
+background: linear-gradient(rgb(140, 134, 237), rgb(7, 24, 44));
+box-shadow:  8px 4px 4px rgb(97, 97, 228), 15px 4px 10px rgb(97, 97, 228);
+}
+
+.inicial_titulo {
+  font-size: 1.5em;
+  margin: auto;
+  text-align: center;
+}
+
+
+.parrafoInicial_texto {
+  padding: 5px 4px;
+  display: inline-block;
+}
+
+
 /* LANDING-SUB-BLOCK ------------------------------------------------------------------------------------------------*/
 
 .block-dark {
@@ -45,8 +83,6 @@
 
 }
 
-
-  
   .landing-blocks {
     background-color: rgb(99, 76, 201);
     color: #000;

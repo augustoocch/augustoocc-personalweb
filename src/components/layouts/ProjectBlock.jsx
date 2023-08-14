@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-function MultipleBlocks({techStack}) {
+function MultipleBlocks({projectArray}) {
 
-  const tech = Object.entries(techStack);
+  const tech = Object.entries(projectArray);
   const results = [];
 
   tech.forEach(([element, infoArray]) => {
