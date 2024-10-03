@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import '../../../public/styles/styles.css';
 import '../../../public/styles/index.css';
 import ProjectContainer from './ProjectContainer';
@@ -19,10 +18,10 @@ function Landing() {
   return (
     <div>
       <header>
-        <h1 className="title text-4xl font-bold dark:text-gray-50 text-gray-700 " >Welcome to my portfolio</h1>
+        <h1 className={`title text-4xl font-bold transition-opacity duration-1000 dark:text-gray-50 text-gray-700  ${isVisible ? 'opacity-100' : 'opacity-0'}`}>Welcome to my portfolio</h1>
       </header>
 
-      <section id="about" className="py-10">
+      <section id="about" className={`py-10 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
         <div className="text-center mb-8">
           <figure>
             <img
@@ -76,7 +75,7 @@ function Landing() {
         </div>
       </section>
 
-      <section id="projects">
+      <section id="projects" className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
         <h2>Check the stuff I can do...</h2>
         <ProjectContainer
           title="Async Microservices with kafka"
@@ -98,8 +97,8 @@ function Landing() {
       </section>
 
     </div>
-  );
-};
+  )
+}
 
 
 export default Landing;

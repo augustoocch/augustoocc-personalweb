@@ -15,5 +15,5 @@ export default function ProjectContainer({image, title, description}: {image: st
                 <button className="project-link">View Project</button>
             </div>
         </div>
-    );
+    )
 }
