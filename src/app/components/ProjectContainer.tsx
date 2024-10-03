@@ -1,4 +1,6 @@
-export default function ProjectContainer({image, title, description}: {image: string, title: string, description: string}) {
+import Link from "next/link";
+
+export default function ProjectContainer({image, title, description, link}: {image: string, title: string, description: string, link: string}) {
 
     return (
         <div className="project dark:bg-gray-800">
@@ -12,7 +14,7 @@ export default function ProjectContainer({image, title, description}: {image: st
                 </div>
             </div>
             <div>
-                <button className="project-link">View Project</button>
+                <Link href={link} className="project-link">View Project</Link>
             </div>
         </div>
     )

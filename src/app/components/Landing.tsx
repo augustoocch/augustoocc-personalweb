@@ -81,18 +81,21 @@ function Landing() {
           title="Async Microservices with kafka"
           image="./images/microservice.png"
           description="A microservices architecture that uses Apache Kafka for asynchronous communication between services."
+          link='https://github.com/augustoocch/url-shortlinker'
         />
 
         <ProjectContainer
           title="AI chat integrating OpenAi"
           image="./images/ai.png"
           description="A marketplace application that connects buyers and sellers. Built with Node.js and MongoDB."
+          link='https://github.com/augustoocch/AI-GPT'
         />
 
         <ProjectContainer
           title="Reactive MS with Quarkus"
           image="./images/frontend.png"
           description="A web application that provides weather forecasts for any location. Built with React and OpenWeatherMap API."
+          link='https://github.com/augustoocch/Customer-microServ-Quarkus-Framework'
         />
       </section>
 
