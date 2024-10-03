@@ -86,14 +86,14 @@ function Landing() {
         <ProjectContainer
           title="AI chat integrating OpenAi"
           image="./images/ai.png"
-          description="A marketplace application that connects buyers and sellers. Built with Node.js and MongoDB."
+          description="Build your own gpt chat, based on the openAI API. In addition, add your own custom training..."
           link='https://github.com/augustoocch/AI-GPT'
         />
 
         <ProjectContainer
           title="Reactive MS with Quarkus"
           image="./images/frontend.png"
-          description="A web application that provides weather forecasts for any location. Built with React and OpenWeatherMap API."
+          description="Rest microservice made up with Quarkus framework (java). This REST-Api, allows the user to add products..."
           link='https://github.com/augustoocch/Customer-microServ-Quarkus-Framework'
         />
       </section>
