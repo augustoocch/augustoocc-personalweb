@@ -31,7 +31,7 @@ function Experience() {
               </ul>
             </div>
 
-            <div className="bg-white dark:bg-gray-800 p-6 mt-4 h-56 rounded-lg shadow transition-opacity duration-1000">
+            <div className="bg-white dark:bg-gray-800 p-6 mt-4 md:h-52 h-72 rounded-lg shadow transition-opacity duration-1000">
               <h3 className="font-bold text-lg">Arquant S.A</h3>
               <p>Feb 2022 - Oct 2023 | Software Developer</p>
               <ul className="list-disc list-inside mt-2">

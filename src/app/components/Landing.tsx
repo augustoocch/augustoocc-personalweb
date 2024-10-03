@@ -51,8 +51,7 @@ function Landing() {
             <div>
               <h3 className="text-2xl font-semibold mb-3">Experience</h3>
               <p className="text-gray-600 dark:text-gray-50 mb-4">
-                With over 4 years of experience in software development, I have worked with Java, Node, and React.
-                I specialize in backend development and microservices architecture with top technologies.
+                With over 4 years of experience in software development, I specialize in backend development with top technologies.
               </p>
             </div>
             <Link href="/experience" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-all">
@@ -65,7 +64,7 @@ function Landing() {
               <h3 className="text-2xl font-semibold mb-3">Stack</h3>
               <p className="text-gray-600 dark:text-gray-50 mb-4">
                 Backend based development. Proficient in Java, SpringBoot, and SQL. 
-                Experienced with microservices architecture and Apache Kafka, Node and NestJs.
+                Experienced with microservices architecture and Apache Kafka...
               </p>
             </div>
             <Link href='/stack' className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-all">
